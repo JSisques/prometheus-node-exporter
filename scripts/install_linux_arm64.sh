@@ -2,7 +2,7 @@
 
 # Variables
 NODE_EXPORTER_VERSION="1.8.1"
-NODE_EXPORTER_URL="https://github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.darwin-arm64.tar.gz"
+NODE_EXPORTER_URL="https://github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-arm64.tar.gz"
 INSTALL_DIR="/usr/local/bin"
 USER="prometheus-node-exporter"
 GROUP="prometheus-node-exporter"
