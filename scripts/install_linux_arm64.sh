@@ -22,10 +22,10 @@ cd ${TEMP_DIR}
 wget ${NODE_EXPORTER_URL}
 
 # Extraer el archivo descargado
-tar -xzf node_exporter-${NODE_EXPORTER_VERSION}.darwin-arm64.tar.gz
+tar -xzf node_exporter-${NODE_EXPORTER_VERSION}.linux-arm64.tar.gz
 
 # Mover el binario a /usr/local/bin
-sudo mv node_exporter-${NODE_EXPORTER_VERSION}.darwin-arm64/node_exporter ${INSTALL_DIR}
+sudo mv node_exporter-${NODE_EXPORTER_VERSION}.linux-arm64/node_exporter ${INSTALL_DIR}
 
 # Asignar permisos al binario
 sudo chown ${USER}:${GROUP} ${INSTALL_DIR}/node_exporter
