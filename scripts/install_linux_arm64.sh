@@ -61,3 +61,6 @@ sudo systemctl start node_exporter
 
 # Confirmar el estado del servicio
 sudo systemctl status node_exporter
+
+# Añadir al arraque del sistema
+sudo systemctl enable node_exporter.service
